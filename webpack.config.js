@@ -43,6 +43,17 @@ module.exports = {
             options: { url: false, sourceMap: true }
           }
         ]
+      },
+      {
+        test: /\.(png|jpg|gif|svg)/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'images/[name].[ext]'
+            }
+          }
+        ]
       }
     ]
   }
