@@ -1,0 +1,6 @@
+node_modules/**/*
+tsconfig.json
+package-lock.json
+bundle.js
+coverage
+jest.config.ts

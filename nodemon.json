@@ -1,0 +1,5 @@
+{
+  "watch": ["server", "frontend", "common"],
+  "ext": "ts",
+  "exec": "webpack --mode=development && ts-node server/index.ts"
+}
